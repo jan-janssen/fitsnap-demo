@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone https://github.com/jan-janssen/FitSNAP.git
+cp -r FitSNAP/fitsnap3/ $CONDA_PREFIX/lib/python3.9/site-packages/
+rm -rf FitSNAP
